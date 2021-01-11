@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 186.017 sec <<< FAILURE!
+validateLoggedInUserTest(com.eVisa.qa.testcases.HomePageTest)  Time elapsed: 51.379 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O1LMJVL', ip: '172.25.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame(EventFiringWebDriver.java:702)
+	at com.eVisa.qa.util.TestUtil.switchToFrame(TestUtil.java:31)
+	at com.eVisa.qa.testcases.HomePageTest.validateLoggedInUserTest(HomePageTest.java:46)
+
