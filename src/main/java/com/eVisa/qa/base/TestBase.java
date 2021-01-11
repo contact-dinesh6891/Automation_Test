@@ -1,7 +1,9 @@
 package com.eVisa.qa.base;
 
 /*
- * @ Authot : Dinesh Kumar
+ * @ Author Name : Dinesh Kumar
+ * Testbase class
+ * 
  */
 
 import java.io.FileInputStream;
