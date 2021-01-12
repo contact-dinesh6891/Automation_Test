@@ -42,9 +42,9 @@ public class LoginPageTest  extends TestBase{
 		loginPage = new LoginPage();
 	}	
 	
-	@Test (priority = 1 ,description = "verifying login page title test")
+	@Test (priority = 1 ,description = "Verifying login Page Title.")
 	@Severity(SeverityLevel.NORMAL)
-	@Description("Test case Description verify Login page title test on Login Page")
+	@Description("Test case Description: Verify Login Page Title on Login Page.")
 	@Story("Story Name : Check Login Page.")
 		
 	public void loginPageTitleTest() {
@@ -55,7 +55,7 @@ public class LoginPageTest  extends TestBase{
 	
 	@Test (priority = 2 ,description = "Verifying Logo on Login page.")
 	@Severity(SeverityLevel.NORMAL)
-	@Description("Test Case Description: verify Logo on Login Page.")
+	@Description("Test Case Description: Verify Logo on Login Page.")
 	@Story("Story Name : Check Logo on Login Page.")
 	
 	public void loginPageLogoTest() {
@@ -64,7 +64,7 @@ public class LoginPageTest  extends TestBase{
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	}
 	
-	@Test (priority = 3 ,description = "Login into Application test.")
+	@Test (priority = 3 ,description = "Login into Application Test.")
 	@Severity(SeverityLevel.BLOCKER)
 	@Description("Test Case Description: verify Login into application with correct credentials.")
 	@Story("Story Name : Check the Login Funtionality.")

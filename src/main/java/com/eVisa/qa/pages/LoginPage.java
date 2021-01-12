@@ -34,16 +34,15 @@ public class LoginPage  extends TestBase{
 	}
 	
 		// Action
-	@Step("Getting Login Page Title")
+	@Step("Getting Login Page Title step...")
 	public String ValidateLoginPageTitle() {
 			return driver.getTitle();
 	}
 	
-	@Step("Getting Logo on Login Page.")
+	@Step("Getting Logo on Login Page step...")
 	public boolean ValidateLogoHomePage() {
 		
 		return logoHomePage.isDisplayed();
-		
 	}
 	
 	@Step("Login with username :{0} and password:{1} step...")
@@ -57,5 +56,4 @@ public class LoginPage  extends TestBase{
 		return new HomePage();
 	}
 	
-
 }

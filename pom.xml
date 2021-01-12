@@ -14,7 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		 <maven.compiler.source>1.6</maven.compiler.source>
                   <maven.compiler.target>1.6</maven.compiler.target>
-          <aspectj.version>1.8.10</aspectj.version>
+          <aspectj.version>1.9.6</aspectj.version>
 	</properties>
 	
 	<build>
@@ -31,21 +31,23 @@
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>2.20</version>
-			<configuration>
+			<!-- <configuration>
 			<suiteXmlFiles>
-						<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 			<argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-             </argLine>
-			</configuration>
-			<dependencies>
+		   -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+           </argLine>
+			</configuration> -->
+			<!-- <dependencies>
 			<dependency>
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>
                         <version>${aspectj.version}</version>
+                         <scope>runtime</scope>
                     </dependency>
-			</dependencies>
+			</dependencies> -->
+		
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -197,11 +199,18 @@
     		<groupId>io.qameta.allure</groupId>
     		<artifactId>allure-testng</artifactId>
     		<version>2.13.8</version>
-		</dependency>
+			</dependency>
+		</dependencies>
 		
+	<reporting>
+		<excludeDefaults>true</excludeDefaults>
+		<plugins>
+			<plugin>
+				<groupId>io.qameta.allure</groupId>
+				<artifactId>allure-maven</artifactId>
+				<version>2.9</version>
+			</plugin>
+		</plugins>
+	</reporting>		
 			
-		
-		
-		
-	</dependencies>
 </project>
