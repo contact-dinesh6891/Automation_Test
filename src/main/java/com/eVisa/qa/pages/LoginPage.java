@@ -10,6 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.eVisa.qa.base.TestBase;
 import com.eVisa.qa.util.TestUtil;
 
+import io.qameta.allure.Step;
+
 public class LoginPage  extends TestBase{
 
 	// Page Factory - OR
@@ -32,17 +34,19 @@ public class LoginPage  extends TestBase{
 	}
 	
 		// Action
-	
+	@Step("Getting Login Page Title")
 	public String ValidateLoginPageTitle() {
 			return driver.getTitle();
 	}
 	
+	@Step("Getting Logo on Login Page.")
 	public boolean ValidateLogoHomePage() {
 		
 		return logoHomePage.isDisplayed();
 		
 	}
 	
+	@Step("Login with username :{0} and password:{1} step...")
 	public HomePage login(String un , String pwd) {
 		usename.sendKeys(un);
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);

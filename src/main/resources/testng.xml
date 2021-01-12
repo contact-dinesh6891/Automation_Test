@@ -10,7 +10,7 @@
   <test name="eVisa Application Test cases">
   	 <classes>
       <class name="com.eVisa.qa.testcases.HomePageTest"/>
-<!--       <class name="com.eVisa.qa.testcases.LoginPageTest"/>
- -->      </classes>
+      <class name="com.eVisa.qa.testcases.LoginPageTest"/>
+      </classes>
   </test> <!-- Test --> 
    </suite> <!-- Suite --> 

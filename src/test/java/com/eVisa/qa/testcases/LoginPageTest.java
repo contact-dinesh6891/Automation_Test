@@ -22,6 +22,11 @@ import com.eVisa.qa.pages.HomePage;
 import com.eVisa.qa.pages.LoginPage;
 import com.eVisa.qa.util.TestUtil;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
 public class LoginPageTest  extends TestBase{
 	LoginPage loginPage;
 	HomePage homePage;
@@ -37,7 +42,10 @@ public class LoginPageTest  extends TestBase{
 		loginPage = new LoginPage();
 	}	
 	
-	@Test (priority = 1)
+	@Test (priority = 1 ,description = "verifying login page title test")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("Test case Description verify Login page title test on Login Page")
+	@Story("Story Name : Check Login Page.")
 		
 	public void loginPageTitleTest() {
 		String title = loginPage.ValidateLoginPageTitle(); 
@@ -45,7 +53,10 @@ public class LoginPageTest  extends TestBase{
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	}
 	
-	@Test (priority = 2)
+	@Test (priority = 2 ,description = "Verifying Logo on Login page.")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("Test Case Description: verify Logo on Login Page.")
+	@Story("Story Name : Check Logo on Login Page.")
 	
 	public void loginPageLogoTest() {
 		boolean logoExist = loginPage.ValidateLogoHomePage();
@@ -53,7 +64,10 @@ public class LoginPageTest  extends TestBase{
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	}
 	
-	@Test (priority = 3)
+	@Test (priority = 3 ,description = "Login into Application test.")
+	@Severity(SeverityLevel.BLOCKER)
+	@Description("Test Case Description: verify Login into application with correct credentials.")
+	@Story("Story Name : Check the Login Funtionality.")
 	
 	public void loginTest() {
 		
