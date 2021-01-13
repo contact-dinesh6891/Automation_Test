@@ -14,6 +14,7 @@ C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\
 C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\pages\MaintainSponsorPage.java
 C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\pages\AdditonalDetailPage.java
 C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\pages\DraftApplicationPage.java
+C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\util\MyTransformer.java
 C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\pages\SelectSponsVisaTypePage.java
 C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\pages\SponsorPendingReqPage.java
 C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\pages\PendingApplicationPage.java
@@ -28,3 +29,4 @@ C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\
 C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\pages\TravelDocumentDetailPage.java
 C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\pages\MaintainUserRecordPage.java
 C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\pages\AccredRequiredDocPage.java
+C:\Users\Dinesh Kumar\eclipse-workspace\eVisa_Automation_Test\src\main\java\com\eVisa\qa\util\RetryAnalyzer.java

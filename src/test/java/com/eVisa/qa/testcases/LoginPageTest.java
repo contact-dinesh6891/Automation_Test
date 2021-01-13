@@ -46,7 +46,7 @@ public class LoginPageTest  extends TestBase{
 	@Severity(SeverityLevel.NORMAL)
 	@Description("Test case Description: Verify Login Page Title on Login Page.")
 	@Story("Story Name : Check Login Page.")
-		
+			
 	public void loginPageTitleTest() {
 		String title = loginPage.ValidateLoginPageTitle(); 
 		assertEquals(title, "Home - Liferay", "Title has been Verified OK");

@@ -1,3 +1,4 @@
+com\eVisa\qa\util\MyTransformer.class
 com\eVisa\qa\pages\MaintainSponsorPage.class
 com\eVisa\qa\pages\AccredReqConfirmPage.class
 com\eVisa\qa\pages\AccredDraftRequestPage.class
@@ -17,6 +18,7 @@ com\eVisa\qa\pages\ViewVisaTypePage.class
 com\eVisa\qa\util\TestUtil.class
 com\eVisa\qa\pages\TravelDocumentDetailPage.class
 com\eVisa\qa\pages\AccredRequiredDocPage.class
+com\eVisa\qa\util\RetryAnalyzer.class
 com\eVisa\qa\pages\AccredRegReqTypePage.class
 com\eVisa\qa\pages\EditUserRecordpage.class
 com\eVisa\qa\pages\ConfirmAppDetailPage.class

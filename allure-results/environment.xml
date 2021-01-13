@@ -1,0 +1,16 @@
+
+
+<environment>
+    <parameter>
+        <key>Browser</key>
+        <value>Chrome</value>
+    </parameter>
+    <parameter>
+        <key>Browser.Version</key>
+        <value>87.0.4280.141</value>
+    </parameter>
+    <parameter>
+        <key>Stand</key>
+        <value>UAT</value>
+    </parameter>
+</environment>

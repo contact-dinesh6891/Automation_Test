@@ -39,12 +39,7 @@ public class TestUtil extends TestBase{
 			e.printStackTrace();
 		}
 		try {
-			try {
-				book = WorkbookFactory.create(file);
-			} catch (org.apache.poi.openxml4j.exceptions.InvalidFormatException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			book = WorkbookFactory.create(file);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
