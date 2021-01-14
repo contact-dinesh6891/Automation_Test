@@ -5,6 +5,8 @@
 <!-- Retry Listener -->
 <listeners>
 	<listener class-name = "com.eVisa.qa.util.MyTransformer"/>
+	<!-- <listener class-name = "com.eVisa.qa.ReportListener.TestAllureListener"/> -->
+	
 </listeners>
 
   <test name="eVisa Application Test cases">
@@ -13,4 +15,4 @@
       <class name="com.eVisa.qa.testcases.LoginPageTest"/>
       </classes>
   </test> <!-- Test --> 
-   </suite> <!-- Suite --> 
+   </suite> <!-- Suite -->  

@@ -44,7 +44,7 @@ public class TestBase {
 		}
 	}
 
-	public static void initialization() {
+	public static WebDriver initialization() {
 		String browserName = prop.getProperty("browser");
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver","C:\\selenium\\chromedriver_win32\\chromedriver.exe");
@@ -64,5 +64,11 @@ public class TestBase {
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
+		return WebDriver();
 }
+
+	private static WebDriver WebDriver() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
